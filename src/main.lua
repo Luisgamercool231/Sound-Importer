@@ -7,7 +7,7 @@
 local Toolbar = plugin:CreateToolbar("Sound importer")
 local Selection = game:GetService("Selection")
 local ImportButton = Toolbar:CreateButton("Import", "button for importing sounds.", "rbxassetid://7173469118")
-local FileWhitelist = {"mp3"}
+local FileWhitelist = {"mp3", "ogg"}
 local Mouse:PluginMouse = plugin:GetMouse()
 local Camera = workspace.CurrentCamera
 local function PositiveIntegerMask(text)
